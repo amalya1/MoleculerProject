@@ -1,0 +1,20 @@
+export = {
+    OPEN: "open",
+    ASSIGNED: "assigned",
+    PUSH_TO_CONFIG_WORKER: "push_to_config_worker",
+    CONFIG_TAKE_REQUEST: "config_take_request",
+    PUSH_TO_ENGINEER: "push_to_engineer",
+    PUSH_TO_ENGINEER_HEAD: "push_to_engineer_head",
+    PUSH_TO_CALL_CENTER: "push_to_call_center",
+    CALL_CENTER_TAKE_REQUEST: "call_center_take_request",
+    CALL_CENTER_CLOSE_REQUEST: "call_center_close_request",
+    CANCEL_REQUEST: "cancel_request",
+    WAITING_TO_CANCEL_REQUEST: "waiting_to_cancel_request",
+    REVERT_CANCEL_REQUEST: "revert_cancel_request",
+    EDIT_REQUEST: "edit_request",
+    ADD_COMMENT: "add_comment",
+    PUSH_BACK_REQUEST_TO_ENGINEER: "push_back_request_to_engineer",
+    PUSH_BACK_REQUEST_TO_ENGINEER_HEAD: "push_back_request_to_engineer_head",
+    PUSH_BACK_REQUEST_TO_CONFIG_WORKER: "push_back_request_to_config_worker",
+    PUSH_TO_STOREKEEPER: "push_to_storekeeper"
+}
